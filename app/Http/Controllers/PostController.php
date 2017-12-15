@@ -87,7 +87,7 @@ class PostController extends Controller
 
     public function contact()
     {
-        return view('pages/contact');
+        return view('contact');
     }
 
     public function show_post($id, $name, $password)

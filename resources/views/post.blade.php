@@ -1,18 +1,7 @@
-<!doctype html>
-<html lang="{{ app()->getLocale() }}">
-<head>
+@extends('layouts.app)
 
-    <title>Laravel</title>
+@section('content')
 
-    <!-- Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
-
-
-</head>
-<body>
-
-<div class="conteiner">
-    <h1>Post {{$id}} {{$name}} {{$password}}</h1>
-</div>
-</body>
-</html>
+    <h1>Post Page {{$id}} {{$name}} {{$password}}</h1>
+    
+@stop
